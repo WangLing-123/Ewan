@@ -1312,7 +1312,7 @@ section,
   /* Add your styles here */
 }
 .hero {
-  background: url(assets/images/'DRV.JPG') no-repeat center center;
+  background: url('assets/images/DRV.JPG') no-repeat center center;
   background-size: cover;
   height: 100vh;
   display: flex;

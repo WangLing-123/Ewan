@@ -1311,19 +1311,20 @@ section,
  
   /* Add your styles here */
 }
+.hero {
+  background: url('your-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .hero {
-    min-height: 100vh;
-    padding: 80px 20px 40px 20px;
-    text-align: center;
-  }
-
-  .hero h2 {
-    font-size: 26px;
-    line-height: 36px;
-  }
-
-  .hero p {
-    font-size: 14px;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
   }
 }
